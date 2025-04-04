@@ -32,7 +32,7 @@ export const getProduct = async (
   };
 }> => {
   const res = await fetch(`${API_URL}/api/products/${id}`, {
-    cache: "no-cache",
+    cache: "force-cache",
     next: {
       revalidate: 60,
     },
