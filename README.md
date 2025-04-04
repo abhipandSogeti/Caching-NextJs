@@ -1,2 +1,2 @@
 # Caching-NextJs
-Caching mechanism in next js web 
+Explains the lastest Caching mechanism in next js web 
